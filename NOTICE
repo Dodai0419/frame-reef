@@ -1,0 +1,12 @@
+frame-reef includes work from these MIT-licensed projects:
+
+1. ascii-sharks, https://github.com/stackedlol/ascii-sharks (commit a0074c1)
+   MIT License, Copyright (c) 2026 drewdi.
+   vendor/ascii-sharks/{math,species,world,renderer,engine}.ts are the upstream src/ files, unchanged
+   (their sha256 values are checked in tests/frame_reef.test.mjs).
+
+2. photo-frame-dashboard, https://github.com/wesbos/photo-frame-dashboard (commit 0bff55e)
+   MIT License, Copyright (c) 2026 Wes Bos.
+   The clock and date format, the 22:00-06:00 night window, the red night clock (#C22C1C) and the
+   once-a-minute 4 px burn-in shift in build.mjs come from dashboard/js/app.js,
+   dashboard/js/views/ambient.js and dashboard/css/views/ambient.css.
